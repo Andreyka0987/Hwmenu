@@ -28,4 +28,14 @@ public class Restaurant {
         System.out.println("Загальна кількість доступних страв: "+total);
         return total;
     }
+
+
+    public void displayAll(){
+        for (Dish dish : dishes){
+            dish.displayInfo();
+        }
+
+    }
+
+
 }

@@ -11,9 +11,7 @@ public class Main {
 
 
 
-            dish1.displayInfo();
-            dish2.displayInfo();
-            dish3.displayInfo();
+            list.displayAll();
 
             Restaurant.getTotalDishes();
 
